@@ -23,4 +23,6 @@ function appendKitten(name){
 function prependKitten(name){
   
 }
-function 
+function removeLastKitten(){
+  
+}
