@@ -29,7 +29,7 @@ return arr;
 
 function removeFirstKitten(){
   let arr = kittens.slice(0);
-  return arr;
+  return arr.concat(kittens);
 }
 
 function removeLastKitten(){
