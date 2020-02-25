@@ -30,7 +30,7 @@ function removeFirstKitten(){
   return arr;
 }
 function removeLastKitten(){
-  let newArr= kittens.slice(0, kittens.length-1);
+  let newAr r= kittens.slice(0, kittens.length-1);
   return newArr;
   
 }
