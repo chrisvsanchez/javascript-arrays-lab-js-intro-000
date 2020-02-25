@@ -21,13 +21,13 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  let arr = kittens.concat(name);
-  return arr;
+ return kittens.concat(name);
+
 }
 
 function removeFirstKitten(){
-  let arr = kittens.slice(0);
-  return arr;
+  return kittens.slice(0);
+ 
 }
 function removeLastKitten(){
   let newAr r= kittens.slice(0, kittens.length-1);
